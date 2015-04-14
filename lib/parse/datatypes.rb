@@ -351,7 +351,11 @@ module Parse
     alias :as_json :to_h
 
     def to_json(*a)
-    to_h.to_json(*a)
+      to_h.to_json(*a)
+    end
+
+    def persisted?
+      parse_filename.present?
     end
   end
 

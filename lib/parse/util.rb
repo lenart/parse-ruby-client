@@ -49,6 +49,16 @@ module Parse
         Parse::File.new obj
       when Protocol::TYPE_OBJECT # used for relation queries, e.g. "?include=post"
         Parse::Object.new obj[Protocol::KEY_CLASS_NAME], Hash[obj.map{|k,v| [k, parse_json(nil, v)]}]
+      when Protocol::TYPE_RELATION
+        if defined?(Rails)
+          logger = Rails.logger
+        else
+          logger = Logger.new(STDERR).tap{|l| l.level = Logger::INFO}
+        end
+
+        logger.warn 'Relations are not supported by parse-ruby-client. nil is assigned to column'
+        # raise ArgumentError, 'Relations are not supported by parse-ruby-client'
+        nil
     end
   end
 

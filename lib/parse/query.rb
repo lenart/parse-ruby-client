@@ -2,7 +2,6 @@
 require 'cgi'
 
 module Parse
-
   class Query
     attr_accessor :where
     attr_accessor :class_name

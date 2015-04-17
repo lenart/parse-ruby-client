@@ -48,6 +48,10 @@ module Parse
       self["objectId"].nil?
     end
 
+    def persisted?
+      !new?
+    end
+
     def update_attributes(data={})
       data.each_pair { |k,v| self[k] = v }
       save
@@ -201,6 +205,8 @@ module Parse
       if !data
         return
       end
+
+      data.stringify_keys! if data.respond_to?(:stringify_keys)
 
       @parse_object_id ||= data[Protocol::KEY_OBJECT_ID]
 

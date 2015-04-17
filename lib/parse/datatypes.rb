@@ -44,6 +44,26 @@ module Parse
       false
     end
 
+    # All pointers point to existing Parse objects
+    def persisted?
+      true
+    end
+
+    def uri
+      Protocol.class_uri @class_name, @parse_object_id
+    end
+
+    # Delete the remote Parse API object.
+    def parse_delete
+      if @parse_object_id
+        response = Parse.client.delete self.uri
+        true
+      else
+        false
+      end
+    end
+
+
     def to_h(*a)
       {
           Protocol::KEY_TYPE        => Protocol::TYPE_POINTER,

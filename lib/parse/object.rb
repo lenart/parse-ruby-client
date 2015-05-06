@@ -45,7 +45,7 @@ module Parse
     end
 
     def new?
-      self["objectId"].nil?
+      self["objectId"].blank?
     end
 
     def persisted?

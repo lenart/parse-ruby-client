@@ -112,6 +112,8 @@ module Parse
 
     alias == eql?
 
+    delegate :to_s, to: :value
+
     def hash
       value.hash
     end

@@ -145,6 +145,14 @@ module Parse
     def to_json(*a)
       to_h.to_json(*a)
     end
+
+    def marshal_dump
+      @value.to_time.utc.iso8601(3)
+    end
+
+    def marshal_load value
+      @value = DateTime.parse(value)
+    end
   end
 
   # Bytes

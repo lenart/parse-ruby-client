@@ -67,7 +67,8 @@ module Parse
       }.each do |key, value|
         headers[key] = value if value
       end
-
+      # puts headers
+      # puts query || body
       @session.send(method, uri, query || body || {}, headers).body
     end
 

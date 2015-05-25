@@ -13,6 +13,7 @@ module Parse
     attr_accessor :application_id
     attr_accessor :api_key
     attr_accessor :master_key
+    attr_accessor :use_master_key
     attr_accessor :session_token
     attr_accessor :session
     attr_accessor :max_retries
@@ -28,6 +29,7 @@ module Parse
       @max_retries    = data[:max_retries] || 3
       @logger         = data[:logger] || Logger.new(STDERR).tap{|l| l.level = Logger::INFO}
       @quiet          = data[:quiet] || false
+      @use_master_key = false
 
       options = {:request => {:timeout => 30, :open_timeout => 30}}
 
@@ -60,16 +62,27 @@ module Parse
       {
         "Content-Type"                  => content_type || 'application/json',
         "User-Agent"                    => 'Parse for Ruby, 0.0',
-        Protocol::HEADER_MASTER_KEY     => @master_key,
         Protocol::HEADER_APP_ID         => @application_id,
-        Protocol::HEADER_API_KEY        => @api_key,
         Protocol::HEADER_SESSION_TOKEN  => @session_token,
       }.each do |key, value|
         headers[key] = value if value
       end
-      # puts headers
-      # puts query || body
+
+      headers.merge! api_key_pair
+
+      unless quiet
+        @logger.info "---- Headers ----"
+        headers.each {|k,v| @logger.info "#{k}: #{v}"}
+        @logger.info "---- ------- ----"
+      end
+
       @session.send(method, uri, query || body || {}, headers).body
+    end
+
+    def with_session_token(token)
+      Parse.client.session_token = token
+      yield self
+      Parse.client.session_token = nil
     end
 
     def get(uri)
@@ -86,6 +99,14 @@ module Parse
 
     def delete(uri)
       request(uri, :delete)
+    end
+
+    def api_key_pair
+      if @use_master_key
+        { Protocol::HEADER_MASTER_KEY => @master_key }
+      else
+        { Protocol::HEADER_API_KEY => @api_key }
+      end
     end
 
   end

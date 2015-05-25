@@ -119,7 +119,10 @@ module Parse
     CLASS_INSTALLATION = "_Installation"
 
     USER_LOGIN_URI  = "/#{VERSION}/login"
+    USER_LOGOUT_URI  = "/#{VERSION}/logout"
     PASSWORD_RESET_URI = "/#{VERSION}/requestPasswordReset"
+
+    SESSIONS_URI = "/#{VERSION}/sessions"
 
     CLOUD_FUNCTIONS_PATH = "functions"
 

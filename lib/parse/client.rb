@@ -109,6 +109,11 @@ module Parse
       end
     end
 
+    def with_master_key
+      self.use_master_key = true
+      yield self
+      self.use_master_key = false
+    end
   end
 
 

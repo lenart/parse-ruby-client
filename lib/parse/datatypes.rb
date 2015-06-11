@@ -356,6 +356,16 @@ module Parse
       url.hash
     end
 
+
+    def url(ssl: false)
+      if ssl
+        @url.sub 'http://', 'https://s3.amazonaws.com/'
+      else
+        @url
+      end
+    end
+
+
     def save
       uri = Parse::Protocol.file_uri(@local_filename)
       resp = Parse.client.request(uri, :post, @body, nil, @content_type)

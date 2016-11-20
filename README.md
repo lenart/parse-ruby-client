@@ -1,3 +1,5 @@
+## Do not use this gem! It is outdated! See original repository.
+
 ## Summary
 
 parse-ruby-client lets you interact with Parse using Ruby. There are many uses. For example:

@@ -1,0 +1,370 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<=>	lib/parse/datatypes.rb	/^    def <=>(other)$/;"	f	line:121	class:Parse.Date
+<=>	lib/parse/datatypes.rb	/^    def <=>(other)$/;"	f	line:180	class:Parse.Bytes
+Application	lib/parse/application.rb	/^  class Application$/;"	c	line:2	class:Parse
+ArrayOp	lib/parse/datatypes.rb	/^  class ArrayOp$/;"	c	line:244	class:Parse
+BATCH_REQUEST_URI	lib/parse/protocol.rb	/^    BATCH_REQUEST_URI = "batch"$/;"	c	line:129
+Batch	lib/parse/batch.rb	/^  class Batch$/;"	c	line:3	class:Parse
+BetterRetry	lib/faraday/better_retry.rb	/^  class BetterRetry < Faraday::Middleware$/;"	c	line:17	class:Faraday
+Bytes	lib/parse/datatypes.rb	/^  class Bytes$/;"	c	line:161	class:Parse
+CLASS_INSTALLATION	lib/parse/protocol.rb	/^    CLASS_INSTALLATION = "_Installation"$/;"	c	line:119
+CLASS_USER	lib/parse/protocol.rb	/^    CLASS_USER      = "_User"$/;"	c	line:117
+CLOUD_FUNCTIONS_PATH	lib/parse/protocol.rb	/^    CLOUD_FUNCTIONS_PATH = "functions"$/;"	c	line:127
+Client	lib/parse/client.rb	/^  class Client$/;"	c	line:11	class:Parse
+Cloud	lib/parse/cloud.rb	/^  module Cloud$/;"	m	line:3	class:Parse
+DELETE_OP	lib/parse/protocol.rb	/^    DELETE_OP       = { KEY_OP => KEY_DELETE }$/;"	c	line:73
+Date	lib/parse/datatypes.rb	/^  class Date$/;"	c	line:93	class:Parse
+ERROR_EXCEEDED_BURST_LIMIT	lib/parse/protocol.rb	/^    ERROR_EXCEEDED_BURST_LIMIT = 155$/;"	c	line:133
+ERROR_INTERNAL	lib/parse/protocol.rb	/^    ERROR_INTERNAL = 1$/;"	c	line:131
+ERROR_OBJECT_NOT_FOUND_FOR_GET	lib/parse/protocol.rb	/^    ERROR_OBJECT_NOT_FOUND_FOR_GET = 101$/;"	c	line:134
+ERROR_TIMEOUT	lib/parse/protocol.rb	/^    ERROR_TIMEOUT = 124$/;"	c	line:132
+ExtendedParseJson	lib/faraday/extended_parse_json.rb	/^  class ExtendedParseJson < FaradayMiddleware::ParseJson$/;"	c	line:4	class:Faraday
+Faraday	lib/faraday/better_retry.rb	/^module Faraday$/;"	m	line:3
+Faraday	lib/faraday/extended_parse_json.rb	/^module Faraday$/;"	m	line:2
+Faraday	lib/faraday/get_method_override.rb	/^module Faraday$/;"	m	line:5
+File	lib/parse/datatypes.rb	/^  class File$/;"	c	line:330	class:Parse
+Function	lib/parse/cloud.rb	/^    class Function$/;"	c	line:5	class:Parse.Cloud
+GeoPoint	lib/parse/datatypes.rb	/^  class GeoPoint$/;"	c	line:282	class:Parse
+GetMethodOverride	lib/faraday/get_method_override.rb	/^  class GetMethodOverride < Faraday::Middleware$/;"	c	line:8	class:Faraday
+HEADER	lib/faraday/get_method_override.rb	/^    HEADER = "X-Http-Method-Override".freeze$/;"	c	line:10
+HEADER_API_KEY	lib/parse/client.rb	/^        { Protocol::HEADER_API_KEY => @api_key }$/;"	c	line:108
+HEADER_API_KEY	lib/parse/protocol.rb	/^    HEADER_API_KEY  = "X-Parse-REST-API-Key"$/;"	c	line:24
+HEADER_APP_ID	lib/parse/client.rb	/^        Protocol::HEADER_APP_ID         => @application_id,$/;"	c	line:65
+HEADER_APP_ID	lib/parse/protocol.rb	/^    HEADER_APP_ID   = "X-Parse-Application-Id"$/;"	c	line:20
+HEADER_MASTER_KEY	lib/parse/client.rb	/^        { Protocol::HEADER_MASTER_KEY => @master_key }$/;"	c	line:106
+HEADER_MASTER_KEY	lib/parse/protocol.rb	/^    HEADER_MASTER_KEY  = "X-Parse-Master-Key"$/;"	c	line:28
+HEADER_SESSION_TOKEN	lib/parse/client.rb	/^        Protocol::HEADER_SESSION_TOKEN  => @session_token,$/;"	c	line:66
+HEADER_SESSION_TOKEN	lib/parse/protocol.rb	/^    HEADER_SESSION_TOKEN = "X-Parse-Session-Token"$/;"	c	line:31
+HOST	lib/parse/protocol.rb	/^    HOST            = "https:\/\/api.parse.com"$/;"	c	line:10
+Increment	lib/parse/datatypes.rb	/^  class Increment$/;"	c	line:212	class:Parse
+Installation	lib/parse/installation.rb	/^  class Installation < Parse::Object$/;"	c	line:7	class:Parse
+KEY_ADD	lib/parse/protocol.rb	/^    KEY_ADD             = "Add"$/;"	c	line:67
+KEY_ADD_RELATION	lib/parse/protocol.rb	/^    KEY_ADD_RELATION    = "AddRelation"$/;"	c	line:68
+KEY_ADD_UNIQUE	lib/parse/protocol.rb	/^    KEY_ADD_UNIQUE      = "AddUnique"$/;"	c	line:70
+KEY_AMOUNT	lib/parse/datatypes.rb	/^          Protocol::KEY_AMOUNT => @amount$/;"	c	line:234
+KEY_AMOUNT	lib/parse/protocol.rb	/^    KEY_AMOUNT      = "amount"$/;"	c	line:80
+KEY_CLASS_NAME	lib/parse/datatypes.rb	/^          Protocol::KEY_CLASS_NAME  => @class_name,$/;"	c	line:70
+KEY_CLASS_NAME	lib/parse/datatypes.rb	/^        Protocol::KEY_CLASS_NAME => class_name,$/;"	c	line:18
+KEY_CLASS_NAME	lib/parse/object.rb	/^      self.merge(Parse::Protocol::KEY_CLASS_NAME => class_name)$/;"	c	line:105
+KEY_CLASS_NAME	lib/parse/protocol.rb	/^    KEY_CLASS_NAME  = "className"$/;"	c	line:38
+KEY_CLASS_NAME	lib/parse/query.rb	/^      query_hash = { Parse::Protocol::KEY_CLASS_NAME => query.class_name, 'where' => query.where }$/;"	c	line:112
+KEY_CREATED_AT	lib/parse/protocol.rb	/^    KEY_CREATED_AT  = "createdAt"$/;"	c	line:46
+KEY_DELETE	lib/parse/protocol.rb	/^    KEY_DELETE      = "Delete"$/;"	c	line:63
+KEY_INCREMENT	lib/parse/protocol.rb	/^    KEY_INCREMENT   = "Increment"$/;"	c	line:62
+KEY_OBJECTS	lib/parse/datatypes.rb	/^          Protocol::KEY_OBJECTS => @objects$/;"	c	line:269
+KEY_OBJECTS	lib/parse/protocol.rb	/^    KEY_OBJECTS         = "objects"$/;"	c	line:66
+KEY_OBJECT_ID	lib/parse/datatypes.rb	/^          Protocol::KEY_OBJECT_ID   => @parse_object_id$/;"	c	line:71
+KEY_OBJECT_ID	lib/parse/datatypes.rb	/^        Protocol::KEY_OBJECT_ID => object_id$/;"	c	line:19
+KEY_OBJECT_ID	lib/parse/protocol.rb	/^    KEY_OBJECT_ID   = "objectId"$/;"	c	line:42
+KEY_OP	lib/parse/datatypes.rb	/^          Protocol::KEY_OP => Protocol::KEY_INCREMENT,$/;"	c	line:233
+KEY_OP	lib/parse/datatypes.rb	/^          Protocol::KEY_OP => operation,$/;"	c	line:268
+KEY_OP	lib/parse/protocol.rb	/^    KEY_OP          = "__op"$/;"	c	line:60
+KEY_REMOVE	lib/parse/protocol.rb	/^    KEY_REMOVE          = "Remove"$/;"	c	line:71
+KEY_REMOVE_RELATION	lib/parse/protocol.rb	/^    KEY_REMOVE_RELATION = "RemoveRelation"$/;"	c	line:69
+KEY_RESULTS	lib/parse/protocol.rb	/^    KEY_RESULTS = RESPONSE_KEY_RESULTS$/;"	c	line:57
+KEY_RESULTS	lib/parse/query.rb	/^          response.dup.merge(Protocol::KEY_RESULTS => parsed_results)$/;"	c	line:153
+KEY_TYPE	lib/parse/datatypes.rb	/^          Protocol::KEY_TYPE        => Protocol::TYPE_POINTER,$/;"	c	line:69
+KEY_TYPE	lib/parse/datatypes.rb	/^          Protocol::KEY_TYPE => Protocol::TYPE_BYTES,$/;"	c	line:198
+KEY_TYPE	lib/parse/datatypes.rb	/^          Protocol::KEY_TYPE => Protocol::TYPE_DATE,$/;"	c	line:139
+KEY_TYPE	lib/parse/datatypes.rb	/^          Protocol::KEY_TYPE => Protocol::TYPE_GEOPOINT,$/;"	c	line:310
+KEY_TYPE	lib/parse/datatypes.rb	/^        Protocol::KEY_TYPE => Protocol::TYPE_FILE,$/;"	c	line:386
+KEY_TYPE	lib/parse/protocol.rb	/^    KEY_TYPE        = "__type"$/;"	c	line:76
+KEY_UPDATED_AT	lib/parse/protocol.rb	/^    KEY_UPDATED_AT  = "updatedAt"$/;"	c	line:50
+KEY_USER_SESSION_TOKEN	lib/parse/protocol.rb	/^    KEY_USER_SESSION_TOKEN = "sessionToken"$/;"	c	line:52
+Model	lib/parse/model.rb	/^  class Model < Parse::Object$/;"	c	line:3	class:Parse
+OP_INCREMENT	lib/parse/protocol.rb	/^    OP_INCREMENT    = "Increment"$/;"	c	line:88
+Object	lib/parse/object.rb	/^  class Object < Hash$/;"	c	line:9	class:Parse
+Options	lib/faraday/better_retry.rb	/^    class Options < OpenStruct$/;"	c	line:18	class:Faraday.BetterRetry
+PASSWORD_RESET_URI	lib/parse/protocol.rb	/^    PASSWORD_RESET_URI = "\/#{VERSION}\/requestPasswordReset"$/;"	c	line:123
+Parse	lib/parse/application.rb	/^module Parse$/;"	m	line:1
+Parse	lib/parse/batch.rb	/^module Parse$/;"	m	line:2
+Parse	lib/parse/client.rb	/^module Parse$/;"	m	line:7
+Parse	lib/parse/cloud.rb	/^module Parse$/;"	m	line:2
+Parse	lib/parse/datatypes.rb	/^module Parse$/;"	m	line:6
+Parse	lib/parse/error.rb	/^module Parse$/;"	m	line:2
+Parse	lib/parse/installation.rb	/^module Parse$/;"	m	line:6
+Parse	lib/parse/model.rb	/^module Parse$/;"	m	line:2
+Parse	lib/parse/object.rb	/^module Parse$/;"	m	line:6
+Parse	lib/parse/protocol.rb	/^module Parse$/;"	m	line:2
+Parse	lib/parse/push.rb	/^module Parse$/;"	m	line:5
+Parse	lib/parse/query.rb	/^module Parse$/;"	m	line:4
+Parse	lib/parse/user.rb	/^module Parse$/;"	m	line:7
+Parse	lib/parse/util.rb	/^module Parse$/;"	m	line:3
+ParseError	lib/parse/error.rb	/^  class ParseError < StandardError #Exception ... why? A:http:\/\/www.skorks.com\/2009\/09\/ruby-exceptions-and-exception-handling\/$/;"	c	line:7	class:Parse
+ParseProtocolError	lib/parse/error.rb	/^  class ParseProtocolError < ParseError$/;"	c	line:13	class:Parse
+ParseProtocolRetry	lib/parse/error.rb	/^  class ParseProtocolRetry < ParseProtocolError$/;"	c	line:39	class:Parse
+Pointer	lib/parse/datatypes.rb	/^  class Pointer$/;"	c	line:11	class:Parse
+Protocol	lib/parse/protocol.rb	/^  module Protocol$/;"	m	line:4	class:Parse
+Push	lib/parse/push.rb	/^  class Push$/;"	c	line:6	class:Parse
+Query	lib/parse/query.rb	/^  class Query$/;"	c	line:5	class:Parse
+RESERVED_KEYS	lib/parse/protocol.rb	/^    RESERVED_KEYS = [ KEY_CLASS_NAME, KEY_CREATED_AT, KEY_OBJECT_ID, KEY_UPDATED_AT, KEY_USER_SESSION_TOKEN]$/;"	c	line:82
+RESPONSE_KEY_RESULTS	lib/parse/protocol.rb	/^    RESPONSE_KEY_RESULTS = "results"$/;"	c	line:56
+SESSIONS_URI	lib/parse/protocol.rb	/^    SESSIONS_URI = "\/#{VERSION}\/sessions"$/;"	c	line:125
+TYPE_BYTES	lib/parse/protocol.rb	/^    TYPE_BYTES      = "Bytes"$/;"	c	line:99
+TYPE_DATE	lib/parse/protocol.rb	/^    TYPE_DATE       = "Date"$/;"	c	line:102
+TYPE_FILE	lib/parse/protocol.rb	/^    TYPE_FILE       = "File"$/;"	c	line:110
+TYPE_GEOPOINT	lib/parse/protocol.rb	/^    TYPE_GEOPOINT   = "GeoPoint"$/;"	c	line:106
+TYPE_OBJECT	lib/parse/protocol.rb	/^    TYPE_OBJECT     = "Object"$/;"	c	line:91
+TYPE_POINTER	lib/parse/protocol.rb	/^    TYPE_POINTER    = "Pointer"$/;"	c	line:95
+TYPE_RELATION	lib/parse/protocol.rb	/^    TYPE_RELATION   = "Relation"$/;"	c	line:114
+UPDATABLE_FIELDS	lib/parse/installation.rb	/^    UPDATABLE_FIELDS = {$/;"	c	line:8
+USER_LOGIN_URI	lib/parse/protocol.rb	/^    USER_LOGIN_URI  = "\/#{VERSION}\/login"$/;"	c	line:121
+USER_LOGOUT_URI	lib/parse/protocol.rb	/^    USER_LOGOUT_URI  = "\/#{VERSION}\/logout"$/;"	c	line:122
+User	lib/parse/user.rb	/^  class User < Parse::Object$/;"	c	line:8	class:Parse
+VERSION	lib/parse/protocol.rb	/^    VERSION         = 1$/;"	c	line:13
+[]	lib/faraday/better_retry.rb	/^      def [](name)$/;"	f	line:33	class:Faraday.BetterRetry.Options
+[]=	lib/faraday/better_retry.rb	/^      def []=(name, value)$/;"	f	line:37	class:Faraday.BetterRetry.Options
+add_constraint	lib/parse/query.rb	/^    def add_constraint(field, constraint)$/;"	f	line:22	class:Parse.Query
+add_request	lib/parse/batch.rb	/^    def add_request(request)$/;"	f	line:12	class:Parse.Batch
+all	lib/parse/model.rb	/^    def self.all$/;"	F	line:20	class:Parse.Model
+amount	lib/parse/datatypes.rb	/^    attr_accessor :amount$/;"	A	line:214
+api_key	lib/parse/client.rb	/^    attr_accessor :api_key$/;"	A	line:14
+api_key_pair	lib/parse/client.rb	/^    def api_key_pair$/;"	f	line:104	class:Parse
+application.rb	lib/parse/application.rb	1;"	F	line:1
+application_id	lib/parse/client.rb	/^    attr_accessor :application_id$/;"	A	line:13
+array_add	lib/parse/object.rb	/^    def array_add(field, value)$/;"	f	line:157	class:Parse.Object.safe_hash.to_h
+array_add_relation	lib/parse/object.rb	/^    def array_add_relation(field, value)$/;"	f	line:161	class:Parse.Object.safe_hash.to_h
+array_add_unique	lib/parse/object.rb	/^    def array_add_unique(field, value)$/;"	f	line:169	class:Parse.Object.safe_hash.to_h
+array_op	lib/parse/object.rb	/^    def array_op(field, operation, value)$/;"	f	line:234	class:Parse.Object.safe_hash.to_h
+array_remove	lib/parse/object.rb	/^    def array_remove(field, value)$/;"	f	line:173	class:Parse.Object.safe_hash.to_h
+array_remove_relation	lib/parse/object.rb	/^    def array_remove_relation(field, value)$/;"	f	line:165	class:Parse.Object.safe_hash.to_h
+authenticate	lib/parse/user.rb	/^    def self.authenticate(username, password)$/;"	F	line:10	class:Parse.User
+batch.rb	lib/parse/batch.rb	1;"	F	line:1
+batch_request_uri	lib/parse/protocol.rb	/^    def Protocol.batch_request_uri$/;"	F	line:187	class:Parse.Protocol
+better_retry.rb	lib/faraday/better_retry.rb	1;"	F	line:1
+body	lib/parse/datatypes.rb	/^    attr_accessor :body$/;"	A	line:335
+build_exception_matcher	lib/faraday/better_retry.rb	/^    def build_exception_matcher(exceptions)$/;"	f	line:80	class:Faraday.BetterRetry
+call	lib/faraday/better_retry.rb	/^    def call(env)$/;"	f	line:58	class:Faraday.BetterRetry
+call	lib/faraday/get_method_override.rb	/^    def call(env)$/;"	f	line:19	class:Faraday.GetMethodOverride
+call	lib/parse/cloud.rb	/^      def call(params={})$/;"	f	line:16	class:Parse.Cloud.Function
+channel	lib/parse/push.rb	/^    attr_accessor :channel$/;"	A	line:8
+channels	lib/parse/push.rb	/^    attr_accessor :channels$/;"	A	line:7
+class_name	lib/parse/datatypes.rb	/^    attr_accessor :class_name$/;"	A	line:13
+class_name	lib/parse/object.rb	/^    attr_reader :class_name$/;"	A	line:11
+class_name	lib/parse/query.rb	/^    attr_accessor :class_name$/;"	A	line:7
+class_uri	lib/parse/protocol.rb	/^    def Protocol.class_uri(class_name, object_id = nil)$/;"	F	line:145	class:Parse.Protocol
+client	lib/parse/batch.rb	/^    attr_reader :client$/;"	A	line:5
+client	lib/parse/client.rb	/^    def client$/;"	f	line:155
+client.rb	lib/parse/client.rb	1;"	F	line:1
+cloud.rb	lib/parse/cloud.rb	1;"	F	line:1
+cloud_function_uri	lib/parse/protocol.rb	/^    def Protocol.cloud_function_uri(function_name)$/;"	F	line:183	class:Parse.Protocol
+code	lib/parse/error.rb	/^    attr_accessor :code$/;"	A	line:14
+config	lib/parse/application.rb	/^    def self.config$/;"	F	line:3	class:Parse.Application
+config_uri	lib/parse/protocol.rb	/^    def Protocol.config_uri$/;"	F	line:139	class:Parse.Protocol
+contains_all	lib/parse/query.rb	/^    def contains_all(field, values)$/;"	f	line:96	class:Parse.Query
+content_type	lib/parse/datatypes.rb	/^    attr_accessor :content_type$/;"	A	line:334
+count	lib/parse/query.rb	/^    attr_accessor :count$/;"	A	line:12
+count	lib/parse/query.rb	/^    def count$/;"	f	line:117	class:Parse.Query
+create_object	lib/parse/batch.rb	/^    def create_object(object)$/;"	f	line:16	class:Parse.Batch
+created_at	lib/parse/object.rb	/^    attr_reader :created_at$/;"	A	line:12
+data	lib/parse/push.rb	/^    attr_accessor :data$/;"	A	line:14
+datatypes.rb	lib/parse/datatypes.rb	1;"	F	line:1
+decrement	lib/parse/object.rb	/^    def decrement(field, amount = 1)$/;"	f	line:194	class:Parse.Object.safe_hash.to_h
+delete	lib/parse/client.rb	/^    def delete(uri)$/;"	f	line:100	class:Parse
+delete	lib/parse/datatypes.rb	/^    def delete$/;"	f	line:377	class:Parse.File
+delete_object	lib/parse/batch.rb	/^    def delete_object(object)$/;"	f	line:38	class:Parse.Batch
+destroy	lib/parse/client.rb	/^    def destroy$/;"	f	line:150
+eq	lib/parse/query.rb	/^    def eq(hash_or_field, value = nil)$/;"	f	line:45	class:Parse.Query
+eq_pair	lib/parse/query.rb	/^    def eq_pair(field, value)$/;"	f	line:51	class:Parse.Query
+eql?	lib/parse/datatypes.rb	/^    def eql?(other)$/;"	f	line:108	class:Parse.Date
+eql?	lib/parse/datatypes.rb	/^    def eql?(other)$/;"	f	line:169	class:Parse.Bytes
+eql?	lib/parse/datatypes.rb	/^    def eql?(other)$/;"	f	line:220	class:Parse.Increment
+eql?	lib/parse/datatypes.rb	/^    def eql?(other)$/;"	f	line:254	class:Parse.ArrayOp
+eql?	lib/parse/datatypes.rb	/^    def eql?(other)$/;"	f	line:296	class:Parse.GeoPoint
+eql?	lib/parse/datatypes.rb	/^    def eql?(other)$/;"	f	line:33	class:Parse.Pointer
+eql?	lib/parse/datatypes.rb	/^    def eql?(other)$/;"	f	line:348	class:Parse.File
+eql?	lib/parse/object.rb	/^    def eql?(other)$/;"	f	line:24	class:Parse.Object
+error	lib/parse/error.rb	/^    attr_accessor :error$/;"	A	line:15
+error.rb	lib/parse/error.rb	1;"	F	line:1
+exception	lib/faraday/extended_parse_json.rb	/^    def exception env$/;"	f	line:33	class:Faraday.ExtendedParseJson
+exceptions	lib/faraday/better_retry.rb	/^      def exceptions$/;"	f	line:28	class:Faraday.BetterRetry.Options
+exists	lib/parse/query.rb	/^    def exists(field, value = true)$/;"	f	line:106	class:Parse.Query
+expiration_time	lib/parse/push.rb	/^    attr_accessor :expiration_time$/;"	A	line:12
+expiration_time_interval	lib/parse/push.rb	/^    attr_accessor :expiration_time_interval$/;"	A	line:11
+extended_parse_json.rb	lib/faraday/extended_parse_json.rb	1;"	F	line:1
+fields	lib/parse/model.rb	/^    def self.fields(*fields)$/;"	F	line:24	class:Parse.Model
+file_uri	lib/parse/protocol.rb	/^    def Protocol.file_uri(file_name)$/;"	F	line:174	class:Parse.Protocol
+find	lib/parse/model.rb	/^    def self.find(object_id)$/;"	F	line:16	class:Parse.Model
+find_by	lib/parse/model.rb	/^    def self.find_by(query_hash)$/;"	F	line:37	class:Parse.Model
+first	lib/parse/query.rb	/^    def first$/;"	f	line:130	class:Parse.Query
+function_name	lib/parse/cloud.rb	/^      attr_accessor :function_name$/;"	A	line:6
+get	lib/parse/client.rb	/^    def get(class_name, object_id = nil)$/;"	f	line:164
+get	lib/parse/client.rb	/^    def get(uri)$/;"	f	line:88	class:Parse
+get	lib/parse/datatypes.rb	/^    def get$/;"	f	line:81	class:Parse.Pointer
+get	lib/parse/installation.rb	/^    def get$/;"	f	line:28	class:Parse.Installation
+get	lib/parse/installation.rb	/^    def self.get(parse_object_id)$/;"	F	line:24	class:Parse.Installation
+get	lib/parse/object.rb	/^    def get$/;"	f	line:43	class:Parse.Object
+get	lib/parse/query.rb	/^    def get$/;"	f	line:135	class:Parse.Query
+get_method_override.rb	lib/faraday/get_method_override.rb	1;"	F	line:1
+greater_eq	lib/parse/query.rb	/^    def greater_eq(field, value)$/;"	f	line:81	class:Parse.Query
+greater_than	lib/parse/query.rb	/^    def greater_than(field, value)$/;"	f	line:76	class:Parse.Query
+hash	lib/parse/datatypes.rb	/^    def hash$/;"	f	line:117	class:Parse.Date
+hash	lib/parse/datatypes.rb	/^    def hash$/;"	f	line:176	class:Parse.Bytes
+hash	lib/parse/datatypes.rb	/^    def hash$/;"	f	line:227	class:Parse.Increment
+hash	lib/parse/datatypes.rb	/^    def hash$/;"	f	line:262	class:Parse.ArrayOp
+hash	lib/parse/datatypes.rb	/^    def hash$/;"	f	line:304	class:Parse.GeoPoint
+hash	lib/parse/datatypes.rb	/^    def hash$/;"	f	line:355	class:Parse.File
+hash	lib/parse/datatypes.rb	/^    def hash$/;"	f	line:39	class:Parse.Pointer
+hash	lib/parse/object.rb	/^    def hash$/;"	f	line:30	class:Parse.Object
+host	lib/parse/client.rb	/^    attr_accessor :host$/;"	A	line:12
+http_status_code	lib/parse/error.rb	/^    attr_accessor :http_status_code$/;"	A	line:17
+in_query	lib/parse/query.rb	/^    def in_query(field, query = nil)$/;"	f	line:111	class:Parse.Query
+include	lib/parse/query.rb	/^    attr_accessor :include$/;"	A	line:13
+includes	lib/parse/query.rb	/^    def includes(class_name)$/;"	f	line:32	class:Parse.Query
+increment	lib/parse/object.rb	/^    def increment(field, amount = 1)$/;"	f	line:178	class:Parse.Object.safe_hash.to_h
+init	lib/parse/client.rb	/^    def init(data = {}, &blk)$/;"	f	line:130
+init_from_cloud_code	lib/parse/client.rb	/^    def init_from_cloud_code(path = "..\/config\/global.json")$/;"	f	line:140
+initialize	lib/faraday/better_retry.rb	/^    def initialize(app, options = {})$/;"	f	line:51	class:Faraday.BetterRetry
+initialize	lib/faraday/get_method_override.rb	/^    def initialize(app, options = nil)$/;"	f	line:15	class:Faraday.GetMethodOverride
+initialize	lib/parse/batch.rb	/^    def initialize(client = Parse.client)$/;"	f	line:7	class:Parse.Batch
+initialize	lib/parse/client.rb	/^    def initialize(data = {}, &blk)$/;"	f	line:23	class:Parse.Client
+initialize	lib/parse/cloud.rb	/^      def initialize(function_name)$/;"	f	line:8	class:Parse.Cloud.Function
+initialize	lib/parse/datatypes.rb	/^    def initialize(amount)$/;"	f	line:216	class:Parse.Increment
+initialize	lib/parse/datatypes.rb	/^    def initialize(data)$/;"	f	line:164	class:Parse.Bytes
+initialize	lib/parse/datatypes.rb	/^    def initialize(data)$/;"	f	line:23	class:Parse.Pointer
+initialize	lib/parse/datatypes.rb	/^    def initialize(data)$/;"	f	line:286	class:Parse.GeoPoint
+initialize	lib/parse/datatypes.rb	/^    def initialize(data)$/;"	f	line:338	class:Parse.File
+initialize	lib/parse/datatypes.rb	/^    def initialize(data)$/;"	f	line:96	class:Parse.Date
+initialize	lib/parse/datatypes.rb	/^    def initialize(operation, objects)$/;"	f	line:249	class:Parse.ArrayOp
+initialize	lib/parse/error.rb	/^    def initialize(response)$/;"	f	line:19	class:Parse.ParseProtocolError
+initialize	lib/parse/installation.rb	/^    def initialize(parse_object_id)$/;"	f	line:20	class:Parse.Installation
+initialize	lib/parse/model.rb	/^    def initialize(data=nil)$/;"	f	line:12	class:Parse.Model
+initialize	lib/parse/object.rb	/^    def initialize(class_name, data = nil)$/;"	f	line:16	class:Parse.Object
+initialize	lib/parse/push.rb	/^    def initialize(data, channel = "")$/;"	f	line:16	class:Parse.Push
+initialize	lib/parse/query.rb	/^    def initialize(cls_name)$/;"	f	line:15	class:Parse.Query
+initialize	lib/parse/user.rb	/^    def initialize(data = nil)$/;"	f	line:27	class:Parse.User
+inspect	lib/parse/object.rb	/^    def inspect$/;"	f	line:129	class:Parse.Object.safe_hash.to_h
+installation.rb	lib/parse/installation.rb	1;"	F	line:1
+installation_uri	lib/parse/protocol.rb	/^    def Protocol.installation_uri(object_id = nil)$/;"	F	line:155	class:Parse.Protocol
+interval	lib/faraday/better_retry.rb	/^      def interval$/;"	f	line:24	class:Faraday.BetterRetry.Options
+latitude	lib/parse/datatypes.rb	/^    attr_accessor :longitude, :latitude$/;"	A	line:284
+less_eq	lib/parse/query.rb	/^    def less_eq(field, value)$/;"	f	line:71	class:Parse.Query
+less_than	lib/parse/query.rb	/^    def less_than(field, value)$/;"	f	line:66	class:Parse.Query
+limit	lib/parse/query.rb	/^    attr_accessor :limit$/;"	A	line:10
+local_filename	lib/parse/datatypes.rb	/^    attr_accessor :local_filename # eg "hello.txt"$/;"	A	line:332
+logger	lib/parse/client.rb	/^    attr_accessor :logger$/;"	A	line:20
+make	lib/parse/datatypes.rb	/^    def self.make(class_name, object_id)$/;"	F	line:16	class:Parse.Pointer
+marshal_dump	lib/parse/datatypes.rb	/^    def marshal_dump$/;"	f	line:149	class:Parse.Date
+marshal_load	lib/parse/datatypes.rb	/^    def marshal_load value$/;"	f	line:153	class:Parse.Date
+master_key	lib/parse/client.rb	/^    attr_accessor :master_key$/;"	A	line:15
+max	lib/faraday/better_retry.rb	/^      def max$/;"	f	line:20	class:Faraday.BetterRetry.Options
+max_retries	lib/parse/client.rb	/^    attr_accessor :max_retries$/;"	A	line:19
+merge_attribute	lib/parse/query.rb	/^    def merge_attribute(attribute, query, query_field = nil)$/;"	f	line:169	class:Parse.Query
+message=	lib/parse/error.rb	/^    def message=(msg)$/;"	f	line:34	class:Parse.ParseProtocolError
+method	lib/parse/installation.rb	/^    def method$/;"	f	line:52	class:Parse
+method_missing	lib/parse/datatypes.rb	/^    def method_missing(method, *args, &block)$/;"	f	line:125	class:Parse.Date
+method_missing	lib/parse/datatypes.rb	/^    def method_missing(method, *args, &block)$/;"	f	line:184	class:Parse.Bytes
+method_missing	lib/parse/model.rb	/^    def method_missing(m,*args,&block)$/;"	f	line:50	class:Parse.Model
+method_missing	lib/parse/model.rb	/^    def self.method_missing(m, *args, &block)$/;"	F	line:56	class:Parse.Model
+model.rb	lib/parse/model.rb	1;"	F	line:1
+model_name	lib/parse/model.rb	/^    def model_name$/;"	f	line:45	class:Parse.Model
+new?	lib/parse/datatypes.rb	/^    def new?$/;"	f	line:43	class:Parse.Pointer
+new?	lib/parse/object.rb	/^    def new?$/;"	f	line:47	class:Parse.Object
+new_record?	lib/parse/model.rb	/^    def new_record?$/;"	f	line:41	class:Parse.Model
+not_eq	lib/parse/query.rb	/^    def not_eq(field, value)$/;"	f	line:56	class:Parse.Query
+object.rb	lib/parse/object.rb	1;"	F	line:1
+object_pointer_equality	lib/parse/util.rb	/^  def Parse.object_pointer_equality?(a, b)$/;"	F	line:77	class:Parse.pointerize_value
+object_pointer_hash	lib/parse/util.rb	/^  def Parse.object_pointer_hash(v)$/;"	F	line:86	class:Parse.pointerize_value
+objects	lib/parse/datatypes.rb	/^    attr_accessor :objects$/;"	A	line:247
+operation	lib/parse/datatypes.rb	/^    attr_accessor :operation$/;"	A	line:246
+or	lib/parse/query.rb	/^    def or(query)$/;"	f	line:37	class:Parse.Query
+order	lib/parse/query.rb	/^    attr_accessor :order$/;"	A	line:9
+order_by	lib/parse/query.rb	/^    attr_accessor :order_by$/;"	A	line:8
+paginate	lib/parse/model.rb	/^    def self.paginate(*params)$/;"	F	line:29	class:Parse.Model
+parse	lib/parse/object.rb	/^    def parse(data)$/;"	f	line:204	class:Parse.Object.safe_hash.to_h
+parse-ruby-client.rb	lib/parse-ruby-client.rb	1;"	F	line:1
+parse_datatype	lib/parse/util.rb	/^  def Parse.parse_datatype(obj)$/;"	F	line:36	class:Parse
+parse_delete	lib/parse/datatypes.rb	/^    def parse_delete$/;"	f	line:57	class:Parse.Pointer
+parse_delete	lib/parse/object.rb	/^    def parse_delete$/;"	f	line:148	class:Parse.Object.safe_hash.to_h
+parse_filename	lib/parse/datatypes.rb	/^    attr_accessor :parse_filename # eg "12-4-532d-d-g3-3-hello.text"$/;"	A	line:333
+parse_json	lib/parse/util.rb	/^  def Parse.parse_json(class_name, obj)$/;"	F	line:10	class:Parse
+parse_object_id	lib/parse/datatypes.rb	/^    attr_accessor :parse_object_id$/;"	A	line:12
+parse_object_id	lib/parse/object.rb	/^    attr_accessor :parse_object_id$/;"	A	line:10
+parse_object_name	lib/parse/model.rb	/^    def self.parse_object_name$/;"	F	line:7	class:Parse.Model
+persisted?	lib/parse/datatypes.rb	/^    def persisted?$/;"	f	line:397	class:Parse.File
+persisted?	lib/parse/datatypes.rb	/^    def persisted?$/;"	f	line:48	class:Parse.Pointer
+persisted?	lib/parse/object.rb	/^    def persisted?$/;"	f	line:51	class:Parse.Object
+pointer	lib/parse/datatypes.rb	/^    def pointer$/;"	f	line:29	class:Parse.Pointer
+pointer	lib/parse/object.rb	/^    def pointer$/;"	f	line:38	class:Parse.Object
+pointerize_value	lib/parse/util.rb	/^  def Parse.pointerize_value(obj)$/;"	F	line:59	class:Parse
+post	lib/parse/client.rb	/^    def post(uri, body)$/;"	f	line:92	class:Parse
+process_response	lib/faraday/extended_parse_json.rb	/^    def process_response(env)$/;"	f	line:6	class:Faraday.ExtendedParseJson
+protocol.rb	lib/parse/protocol.rb	1;"	F	line:1
+push.rb	lib/parse/push.rb	1;"	F	line:1
+push_time	lib/parse/push.rb	/^    attr_accessor :push_time$/;"	A	line:13
+push_uri	lib/parse/protocol.rb	/^    def Protocol.push_uri$/;"	F	line:179	class:Parse.Protocol
+put	lib/parse/client.rb	/^    def put(uri, body)$/;"	f	line:96	class:Parse
+query	lib/parse/model.rb	/^    def self.query$/;"	F	line:33	class:Parse.Model
+query.rb	lib/parse/query.rb	1;"	F	line:1
+quiet	lib/parse/client.rb	/^    attr_accessor :quiet$/;"	A	line:21
+refresh	lib/parse/object.rb	/^    def refresh$/;"	f	line:135	class:Parse.Object.safe_hash.to_h
+regex	lib/parse/query.rb	/^    def regex(field, expression)$/;"	f	line:61	class:Parse.Query
+related_to	lib/parse/query.rb	/^    def related_to(field, value)$/;"	f	line:101	class:Parse.Query
+request	lib/parse/client.rb	/^    def request(uri, method = :get, body = nil, query = nil, content_type = nil)$/;"	f	line:59	class:Parse
+requests	lib/parse/batch.rb	/^    attr_reader :requests$/;"	A	line:4
+reset_password	lib/parse/user.rb	/^    def self.reset_password(email)$/;"	F	line:22	class:Parse.User
+respond_to?	lib/parse/datatypes.rb	/^    def respond_to?(method, include_private = false)$/;"	f	line:133	class:Parse.Date
+respond_to?	lib/parse/datatypes.rb	/^    def respond_to?(method, include_private = false)$/;"	f	line:192	class:Parse.Bytes
+response	lib/parse/error.rb	/^    attr_accessor :response$/;"	A	line:16
+rest_api_hash	lib/parse/installation.rb	/^    def rest_api_hash$/;"	f	line:48	class:Parse
+rest_api_hash	lib/parse/object.rb	/^    def rest_api_hash$/;"	f	line:104	class:Parse.Object.safe_hash
+run!	lib/parse/batch.rb	/^    def run!$/;"	f	line:45	class:Parse.Batch
+safe_hash	lib/parse/object.rb	/^    def safe_hash$/;"	f	line:89	class:Parse.Object
+save	lib/parse/datatypes.rb	/^    def save$/;"	f	line:369	class:Parse.File
+save	lib/parse/installation.rb	/^    def save$/;"	f	line:44	class:Parse
+save	lib/parse/object.rb	/^    def save$/;"	f	line:63	class:Parse.Object
+save	lib/parse/push.rb	/^    def save$/;"	f	line:21	class:Parse.Push
+session	lib/parse/client.rb	/^    attr_accessor :session$/;"	A	line:18
+session_token	lib/parse/client.rb	/^    attr_accessor :session_token$/;"	A	line:17
+set_order	lib/parse/query.rb	/^    def set_order(query)$/;"	f	line:162	class:Parse.Query
+should_call_to_h?	lib/parse/object.rb	/^    def should_call_to_h?(value)$/;"	f	line:109	class:Parse.Object.safe_hash
+skip	lib/parse/query.rb	/^    attr_accessor :skip$/;"	A	line:11
+to_h	lib/parse/datatypes.rb	/^    def to_h(*a)$/;"	f	line:137	class:Parse.Date
+to_h	lib/parse/datatypes.rb	/^    def to_h(*a)$/;"	f	line:196	class:Parse.Bytes
+to_h	lib/parse/datatypes.rb	/^    def to_h(*a)$/;"	f	line:231	class:Parse.Increment
+to_h	lib/parse/datatypes.rb	/^    def to_h(*a)$/;"	f	line:266	class:Parse.ArrayOp
+to_h	lib/parse/datatypes.rb	/^    def to_h(*a)$/;"	f	line:308	class:Parse.GeoPoint
+to_h	lib/parse/datatypes.rb	/^    def to_h(*a)$/;"	f	line:384	class:Parse.File
+to_h	lib/parse/datatypes.rb	/^    def to_h(*a)$/;"	f	line:67	class:Parse.Pointer
+to_h	lib/parse/object.rb	/^    def to_h(*a)$/;"	f	line:113	class:Parse.Object.safe_hash
+to_json	lib/parse/datatypes.rb	/^    def to_json(*a)$/;"	f	line:145	class:Parse.Date
+to_json	lib/parse/datatypes.rb	/^    def to_json(*a)$/;"	f	line:204	class:Parse.Bytes
+to_json	lib/parse/datatypes.rb	/^    def to_json(*a)$/;"	f	line:239	class:Parse.Increment
+to_json	lib/parse/datatypes.rb	/^    def to_json(*a)$/;"	f	line:274	class:Parse.ArrayOp
+to_json	lib/parse/datatypes.rb	/^    def to_json(*a)$/;"	f	line:317	class:Parse.GeoPoint
+to_json	lib/parse/datatypes.rb	/^    def to_json(*a)$/;"	f	line:393	class:Parse.File
+to_json	lib/parse/datatypes.rb	/^    def to_json(*a)$/;"	f	line:76	class:Parse.Pointer
+to_json	lib/parse/object.rb	/^    def to_json(*a)$/;"	f	line:121	class:Parse.Object.safe_hash.to_h
+to_s	lib/parse/datatypes.rb	/^    def to_s$/;"	f	line:321	class:Parse.GeoPoint
+to_s	lib/parse/datatypes.rb	/^    def to_s$/;"	f	line:85	class:Parse.Pointer
+to_s	lib/parse/error.rb	/^    def to_s$/;"	f	line:30	class:Parse.ParseProtocolError
+to_s	lib/parse/object.rb	/^    def to_s$/;"	f	line:125	class:Parse.Object.safe_hash.to_h
+type	lib/parse/push.rb	/^    attr_accessor :type$/;"	A	line:10
+update_attributes	lib/parse/object.rb	/^    def update_attributes(data={})$/;"	f	line:55	class:Parse.Object
+update_object	lib/parse/batch.rb	/^    def update_object(object)$/;"	f	line:27	class:Parse.Batch
+updated_at	lib/parse/object.rb	/^    attr_reader :updated_at$/;"	A	line:13
+uri	lib/parse/cloud.rb	/^      def uri$/;"	f	line:12	class:Parse.Cloud.Function
+uri	lib/parse/datatypes.rb	/^    def uri$/;"	f	line:52	class:Parse.Pointer
+uri	lib/parse/installation.rb	/^    def uri$/;"	f	line:40	class:Parse
+uri	lib/parse/object.rb	/^    def uri$/;"	f	line:34	class:Parse.Object
+uri	lib/parse/user.rb	/^    def uri$/;"	f	line:33	class:Parse.User
+url	lib/parse/datatypes.rb	/^    attr_accessor :url$/;"	A	line:336
+url	lib/parse/datatypes.rb	/^    def url(ssl: false)$/;"	f	line:360	class:Parse.File
+use_master_key	lib/parse/client.rb	/^    attr_accessor :use_master_key$/;"	A	line:16
+user.rb	lib/parse/user.rb	1;"	F	line:1
+user_uri	lib/parse/protocol.rb	/^    def Protocol.user_uri(user_id = nil)$/;"	F	line:165	class:Parse.Protocol
+util.rb	lib/parse/util.rb	1;"	F	line:1
+value	lib/parse/datatypes.rb	/^    attr_accessor :value$/;"	A	line:162
+value	lib/parse/datatypes.rb	/^    attr_accessor :value$/;"	A	line:94
+value_in	lib/parse/query.rb	/^    def value_in(field, values)$/;"	f	line:86	class:Parse.Query
+value_not_in	lib/parse/query.rb	/^    def value_not_in(field, values)$/;"	f	line:91	class:Parse.Query
+where	lib/parse/push.rb	/^    attr_accessor :where$/;"	A	line:9
+where	lib/parse/query.rb	/^    attr_accessor :where$/;"	A	line:6
+where_as_json	lib/parse/query.rb	/^    def where_as_json$/;"	f	line:122	class:Parse.Query
+with_master_key	lib/parse/client.rb	/^    def with_master_key$/;"	f	line:112	class:Parse
+with_session_token	lib/parse/client.rb	/^    def with_session_token(token)$/;"	f	line:82	class:Parse
